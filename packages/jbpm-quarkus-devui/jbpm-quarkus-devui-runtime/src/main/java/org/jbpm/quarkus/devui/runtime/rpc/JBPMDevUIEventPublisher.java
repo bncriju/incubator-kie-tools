@@ -18,6 +18,7 @@
  */
 
  package org.jbpm.quarkus.devui.runtime.rpc;
+ import io.quarkus.arc.profile.IfBuildProfile;
  import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.enterprise.inject.Default;
 
@@ -29,7 +30,7 @@ import org.kie.kogito.event.DataEvent;
  import java.util.Collection;
  import java.util.Objects;
 
-@Default
+@IfBuildProfile("dev")
 @ApplicationScoped
  public class JBPMDevUIEventPublisher implements EventPublisher {
  
