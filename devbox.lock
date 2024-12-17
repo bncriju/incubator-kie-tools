@@ -152,7 +152,7 @@
     },
     "python@3.12.2": {
       "last_modified": "2024-04-02T02:53:36Z",
-      "plugin_version": "0.0.4",
+      "plugin_version": "0.0.3",
       "resolved": "github:NixOS/nixpkgs/080a4a27f206d07724b88da096e27ef63401a504#python312",
       "source": "devbox-search",
       "version": "3.12.2",
